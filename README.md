@@ -17,13 +17,15 @@ Clone this repo, replace `tauri-starter` in the project code with your project n
 pnpm i
 
 # Run dev server
-pnpm tauri dev
+pnpm --filter desktop dev
 
 # Build for production
-pnpm tauri build
+pnpm --filter desktop build
 ```
 
 ## Project Structure
+
+### `desktop`
 
 - `src/router.ts`: Define your routes here, every route and layout is lazy-loaded.
 
