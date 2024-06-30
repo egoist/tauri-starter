@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["desktop/src-tauri"]
+
+[workspace.package]
+license = "AGPL-3.0-only"
+edition = "2021"
+repository = "https://github.com/egoist/tauri-starter"
+
+[workspace.dependencies]
