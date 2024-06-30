@@ -3,7 +3,9 @@ name = "tauri-starter"
 version = "0.0.0"
 description = "A Tauri App"
 authors = ["you"]
-edition = "2021"
+license = { workspace = true }
+repository = { workspace = true }
+edition = { workspace = true }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -16,5 +18,7 @@ tauri-plugin-shell = "2.0.0-beta"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 specta = "=2.0.0-rc.12"
-tauri-specta = { version = "=2.0.0-rc.11", features = ["javascript", "typescript"] }
-
+tauri-specta = { version = "=2.0.0-rc.11", features = [
+  "javascript",
+  "typescript",
+] }
